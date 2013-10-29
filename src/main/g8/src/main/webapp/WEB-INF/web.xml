@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <web-app>
+<servlet>
+      <servlet-name>face</servlet-name>
+      <servlet-class>com.test.Stub</servlet-class>
+  </servlet>
+ <servlet-mapping>
+    <servlet-name>face</servlet-name>
+    <url-pattern>/face</url-pattern>
+ </servlet-mapping>
 
 </web-app>
