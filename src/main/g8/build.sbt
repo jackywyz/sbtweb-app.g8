@@ -1,11 +1,10 @@
 // give the user a nice default project!
-scalaVersion :="2.10.3"
+scalaVersion :="2.11.4"
 
-seq(webSettings :_*)
+jetty()
 
-libraryDependencies ++= Seq("org.mortbay.jetty" % "jetty" % "6.1.26" % "container",
-"ch.qos.logback" % "logback-classic" % "1.0.13" % "runtime",
-"javax.servlet" % "servlet-api" % "2.5" % "provided",
-"org.slf4j" % "slf4j-api" % "1.7.5"
+libraryDependencies ++= Seq("javax.servlet" % "javax.servlet-api" % "3.0.1" % "provided",
+"ch.qos.logback" % "logback-classic" % "1.1.2" % "runtime",
+"org.slf4j" % "slf4j-api" % "1.7.7"
 )
 
